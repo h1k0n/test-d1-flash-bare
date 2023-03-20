@@ -1,5 +1,4 @@
-#![feature(naked_functions, asm_sym, asm_const)]
-#![feature(default_alloc_error_handler)]
+#![feature(naked_functions, asm_const)]
 #![no_std]
 #![no_main]
 
