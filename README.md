@@ -12,7 +12,7 @@ Prerequisites: you need to install Rust and build target `riscv64imac-unknown-no
 Use following command:
 
 ```
-cargo make
+RUSTFLAGS="$RUSTFLAGS -A dead_code -A unused_variables -A unused" cargo make
 ```
 
 This command should build the project, generate a binary, fix length and calculate checksum, finally
